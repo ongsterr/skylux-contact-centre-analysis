@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "skylux-analysis"
+version = "0.1.0"
+description = ""
+authors = ["chrisongg"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+snowflake-connector-python = "^3.0.0"
+python-dotenv = "^1.2.1"
+pandas = "^2.3.3"
+catboost = "^1.2.8"
+scikit-learn = "^1.7.2"
+shap = "^0.50.0"
+matplotlib = "^3.10.7"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^7.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
